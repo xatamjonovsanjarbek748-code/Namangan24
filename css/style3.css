@@ -1,0 +1,300 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+* .container {
+  width: 100%;
+  height: 100vh;
+}
+* .container header {
+  width: 100%;
+  height: 230px;
+}
+* header nav {
+  width: 100%;
+  background-color: #F6F6F6;
+  height: 105px;
+}
+* header nav h1 {
+  color: blue;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}
+* header nav #d {
+  position: absolute;
+  top: 41px;
+  left: 500px;
+  color: blue;
+}
+* header nav .dolir {
+  position: absolute;
+  top: 42px;
+  left: 520px;
+}
+* header nav #p {
+  position: absolute;
+  top: 41px;
+  left: 580px;
+  color: blue;
+}
+* header nav .dolirr {
+  position: absolute;
+  top: 42px;
+  left: 600px;
+}
+* header nav input {
+  width: 275px;
+  height: 45px;
+  border-radius: 60px;
+  background-color: #FFFFFF;
+  border: transparent;
+  padding-left: 40px;
+  position: absolute;
+  left: 836px;
+  top: 27px;
+}
+* header nav #glass {
+  position: absolute;
+  top: 41px;
+  left: 845px;
+  color: gray;
+}
+* header nav input:hover {
+  cursor: pointer;
+  border: 1px solid grey;
+}
+* header nav .qism {
+  width: 70px;
+  height: 36px;
+  top: 35px;
+  left: 1136px;
+  border-radius: 39px;
+  position: absolute;
+  background-color: #DCE6FF;
+}
+* header nav .qismm {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  top: 3px;
+  left: 3px;
+}
+* header nav .qismm:hover {
+  cursor: pointer;
+  background-color: white;
+}
+* header nav .qismmm {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  top: 38px;
+  left: 1170px;
+}
+* header nav .qismmm:hover {
+  cursor: pointer;
+  background-color: white;
+}
+* header nav button {
+  width: 89px;
+  height: 45px;
+  top: 30px;
+  left: 1231px;
+  border-radius: 10px;
+  opacity: 1;
+  gap: 10px;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  background-color: #7296EC;
+  color: white;
+  border: none;
+  position: absolute;
+}
+* header nav button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #7296EC;
+  border: 2px solid #7296EC;
+}
+* header .linklar {
+  display: flex;
+  gap: 59px;
+}
+* header .linklar a {
+  color: grey;
+}
+* header .link {
+  border-bottom: 1px solid grey;
+  width: 1200px;
+  height: 30px;
+  position: absolute;
+  left: 150px;
+  top: 140px;
+}
+* main {
+  width: 100%;
+  height: 500px;
+}
+* main h1 {
+  position: absolute;
+  left: 140px;
+  top: 270px;
+}
+* main .chek {
+  width: 343px;
+  height: 55px;
+  top: 324px;
+  left: 120px;
+  border-radius: 10px;
+  position: absolute;
+  border-width: 1px;
+  padding-left: 20px;
+}
+* main .chek1 {
+  width: 343px;
+  height: 55px;
+  top: 324px;
+  left: 470px;
+  border-radius: 10px;
+  position: absolute;
+  border-width: 1px;
+  padding-left: 20px;
+}
+* main .chek2 {
+  width: 696px;
+  height: 55px;
+  top: 389px;
+  left: 120px;
+  position: absolute;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 20px;
+}
+* main .chek3 {
+  width: 696px;
+  height: 180px;
+  top: 454px;
+  left: 120px;
+  position: absolute;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-bottom: 120px;
+  padding-left: 20px;
+}
+* .container footer {
+  width: 100%;
+  height: 360px;
+  background-color: #7297EF;
+}
+* footer h1 {
+  top: 770px;
+  left: 221px;
+  position: absolute;
+  color: white;
+  z-index: 2;
+}
+* footer .lorem1 {
+  width: 309px;
+  height: 95px;
+  top: 830px;
+  left: 221px;
+  position: absolute;
+  color: #FFFFFF;
+}
+* footer .past {
+  display: flex;
+  gap: 50px;
+  line-height: 30px;
+}
+* footer a {
+  color: white;
+  margin-left: 760px;
+}
+* footer .pastk {
+  padding-top: 100px;
+}
+* footer .pastkk {
+  padding-left: 300px;
+  margin-top: -115px;
+}
+* footer .pastk {
+  display: flex;
+  gap: 50px;
+  line-height: 30px;
+}
+* footer a {
+  color: white;
+  margin-left: 760px;
+}
+* footer .pastk {
+  padding-top: 100px;
+}
+* footer .chiziq10 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  left: 220px;
+  top: 970px;
+}
+* footer h3 {
+  color: white;
+  width: 150px;
+  position: absolute;
+  left: 220px;
+  top: 1000px;
+}
+* footer .ikomka {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  position: absolute;
+  right: 240px;
+  top: 1000px;
+}
+* #face {
+  color: blue;
+  cursor: pointer;
+}
+* #tele {
+  color: blue;
+  cursor: pointer;
+}
+* #insta {
+  color: red;
+  cursor: pointer;
+}
+* #you {
+  color: red;
+  cursor: pointer;
+}
+* main button {
+  width: 145px;
+  height: 53px;
+  top: 644px;
+  left: 671px;
+  position: absolute;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-right: 30px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  gap: 10px;
+  background-color: #7296EC;
+  color: white;
+  cursor: pointer;
+  border: none;
+}/*# sourceMappingURL=style3.css.map */

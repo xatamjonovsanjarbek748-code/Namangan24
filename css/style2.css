@@ -1,0 +1,515 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+* .container {
+  width: 100%;
+  height: 100vh;
+}
+* .container header {
+  width: 100%;
+  height: 230px;
+}
+* header nav {
+  width: 100%;
+  background-color: #F6F6F6;
+  height: 105px;
+}
+* header nav h1 {
+  color: blue;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}
+* header nav #d {
+  position: absolute;
+  top: 41px;
+  left: 500px;
+  color: blue;
+}
+* header nav .dolir {
+  position: absolute;
+  top: 42px;
+  left: 520px;
+}
+* header nav #p {
+  position: absolute;
+  top: 41px;
+  left: 580px;
+  color: blue;
+}
+* header nav .dolirr {
+  position: absolute;
+  top: 42px;
+  left: 600px;
+}
+* header nav input {
+  width: 275px;
+  height: 45px;
+  border-radius: 60px;
+  background-color: #FFFFFF;
+  border: transparent;
+  padding-left: 40px;
+  position: absolute;
+  left: 836px;
+  top: 27px;
+}
+* header nav #glass {
+  position: absolute;
+  top: 41px;
+  left: 845px;
+  color: gray;
+}
+* header nav input:hover {
+  cursor: pointer;
+  border: 1px solid grey;
+}
+* header nav .qism {
+  width: 70px;
+  height: 36px;
+  top: 35px;
+  left: 1136px;
+  border-radius: 39px;
+  position: absolute;
+  background-color: #DCE6FF;
+}
+* header nav .qismm {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  top: 3px;
+  left: 3px;
+}
+* header nav .qismm:hover {
+  cursor: pointer;
+  background-color: white;
+}
+* header nav .qismmm {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  top: 38px;
+  left: 1170px;
+}
+* header nav .qismmm:hover {
+  cursor: pointer;
+  background-color: white;
+}
+* header nav button {
+  width: 89px;
+  height: 45px;
+  top: 30px;
+  left: 1231px;
+  border-radius: 10px;
+  opacity: 1;
+  gap: 10px;
+  padding-top: 13px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  background-color: #7296EC;
+  color: white;
+  border: none;
+  position: absolute;
+}
+* header nav button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #7296EC;
+  border: 2px solid #7296EC;
+}
+* header .linklar {
+  display: flex;
+  gap: 59px;
+}
+* header .linklar a {
+  color: grey;
+}
+* header .link {
+  border-bottom: 1px solid grey;
+  width: 1200px;
+  height: 30px;
+  position: absolute;
+  left: 150px;
+  top: 140px;
+}
+* .container main {
+  width: 100%;
+  height: 210vh;
+  border: 1px solid red;
+  position: relative;
+}
+* main .rasm1 {
+  position: absolute;
+  top: 20px;
+  left: 140px;
+}
+* main .soz1 {
+  color: grey;
+  position: absolute;
+  left: 180px;
+  top: 30px;
+}
+* main .soz2 {
+  width: 800px;
+  position: absolute;
+  top: 70px;
+  left: 140px;
+}
+* main .rasm2 {
+  width: 797px;
+  height: 300px;
+  top: 152px;
+  left: 140px;
+  position: absolute;
+  border-radius: 13px;
+}
+* main .lorem {
+  width: 797px;
+  height: 150px;
+  top: 477px;
+  position: absolute;
+  left: 140px;
+  color: grey;
+}
+* main .lorem1 {
+  width: 697px;
+  height: 60px;
+  top: 601px;
+  left: 140px;
+  position: absolute;
+  color: grey;
+}
+* main .lorem2 {
+  width: 597px;
+  height: 180px;
+  position: absolute;
+  left: 140px;
+  color: grey;
+  top: 685px;
+  opacity: 1;
+}
+* main .lorem3 {
+  width: 697px;
+  height: 90px;
+  top: 809px;
+  left: 140px;
+  position: absolute;
+  color: grey;
+}
+* main .lorem4 {
+  width: 597px;
+  position: absolute;
+  left: 140px;
+  color: grey;
+  height: 120;
+  top: 903px;
+  opacity: 1;
+}
+* main .lorem5 {
+  width: 597px;
+  position: absolute;
+  left: 140px;
+  color: grey;
+  height: 120;
+  top: 990px;
+  opacity: 1;
+}
+* main .box5 {
+  width: 393px;
+  height: 402px;
+  position: absolute;
+  top: 20px;
+  left: 957px;
+  border-radius: 15px;
+  background-color: #F6F6F6;
+}
+* main .rasm7 {
+  position: absolute;
+  left: 957px;
+  top: 530px;
+}
+* .box5 h2 {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+* .box5 .soz5 {
+  position: absolute;
+  left: 20px;
+  top: 56px;
+}
+* .box5 a {
+  position: absolute;
+  left: 20px;
+  top: 115px;
+  color: grey;
+}
+* .box5 .chiziq {
+  position: absolute;
+  left: 20px;
+  top: 120px;
+  color: grey;
+}
+* .box5 .soz6 {
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  font-size: 21px;
+}
+* .box5 .link1 {
+  color: grey;
+  position: absolute;
+  left: 20px;
+  top: 190px;
+}
+* .box5 .chiziq1 {
+  color: grey;
+  position: absolute;
+  left: 20px;
+  top: 200px;
+}
+* .box5 .soz7 {
+  position: absolute;
+  left: 20px;
+  top: 235px;
+}
+* .box5 .link2 {
+  color: grey;
+  position: absolute;
+  top: 290px;
+  left: 20px;
+}
+* .box5 .chiziq2 {
+  color: grey;
+  position: absolute;
+  left: 20px;
+  top: 315px;
+}
+* .box5 .soz8 {
+  position: absolute;
+  left: 20px;
+  top: 340px;
+}
+* .box5 .link3 {
+  color: grey;
+  position: absolute;
+  left: 20px;
+  top: 400px;
+}
+* .container footer {
+  width: 100%;
+  height: 360px;
+  background-color: #7297EF;
+}
+* footer h1 {
+  top: 1800px;
+  left: 221px;
+  position: absolute;
+  color: white;
+}
+* footer .lorem1 {
+  width: 309px;
+  height: 95px;
+  top: 1850px;
+  left: 221px;
+  position: absolute;
+  color: #FFFFFF;
+}
+* footer .past {
+  display: flex;
+  gap: 50px;
+  line-height: 30px;
+}
+* footer a {
+  color: white;
+  margin-left: 760px;
+}
+* footer .pastk {
+  padding-top: 100px;
+}
+* footer .pastkk {
+  padding-left: 300px;
+  margin-top: -115px;
+}
+* footer .pastk {
+  display: flex;
+  gap: 50px;
+  line-height: 30px;
+}
+* footer a {
+  color: white;
+  margin-left: 760px;
+}
+* footer .pastk {
+  padding-top: 100px;
+}
+* footer .chiziq10 {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  left: 220px;
+  top: 1970px;
+}
+* footer h3 {
+  color: white;
+  width: 150px;
+  position: absolute;
+  left: 220px;
+  top: 2000px;
+}
+* footer .ikomka {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  position: absolute;
+  right: 240px;
+  top: 2000px;
+}
+* #face {
+  color: blue;
+  cursor: pointer;
+}
+* #tele {
+  color: blue;
+  cursor: pointer;
+}
+* #insta {
+  color: red;
+  cursor: pointer;
+}
+* #you {
+  color: red;
+  cursor: pointer;
+}
+* main .soz10 {
+  color: black;
+  position: absolute;
+  top: 1100px;
+  left: 140px;
+}
+* main .boxx1 {
+  position: absolute;
+  top: 1200px;
+  left: 140px;
+  width: 393px;
+  height: 207px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 20px;
+  background-color: #F6F6F6;
+}
+* .boxx1 p {
+  color: grey;
+  position: absolute;
+  top: 80px;
+  left: 17px;
+}
+* .boxx1 .s {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+}
+* .boxx1 a {
+  cursor: pointer;
+  color: grey;
+  position: absolute;
+  bottom: 23px;
+  left: 50px;
+}
+* main .boxx2 {
+  position: absolute;
+  top: 1200px;
+  left: 560px;
+  width: 393px;
+  height: 207px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 20px;
+  background-color: #F6F6F6;
+}
+* .boxx2 p {
+  color: grey;
+  position: absolute;
+  top: 90px;
+  left: 17px;
+}
+* .boxx2 .s {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* .boxx2 a {
+  cursor: pointer;
+  color: grey;
+  position: absolute;
+  bottom: 23px;
+  left: 50px;
+}
+* main .boxx3 {
+  position: absolute;
+  top: 1200px;
+  left: 980px;
+  width: 393px;
+  height: 207px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  padding-left: 17px;
+  gap: 20px;
+  background-color: #F6F6F6;
+}
+* .boxx3 p {
+  color: grey;
+  position: absolute;
+  top: 90px;
+  left: 17px;
+}
+* .boxx3 .s {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* .boxx3 a {
+  cursor: pointer;
+  color: grey;
+  position: absolute;
+  bottom: 23px;
+  left: 50px;
+}/*# sourceMappingURL=style2.css.map */
